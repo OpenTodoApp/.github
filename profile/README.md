@@ -63,7 +63,7 @@ An open-source, local-first task manager you host yourself: everything you expec
 ### Run it
 
 ```bash
-docker run -d -p 8080:8080 -v opentodo-data:/data ghcr.io/pixari/opentodo:stable
+docker run -d -p 8080:8080 -v opentodo-data:/data ghcr.io/opentodoapp/opentodo:stable
 ```
 
 Open http://localhost:8080 and create your account. One-click installs for Umbrel, CasaOS, TrueNAS, Unraid, Coolify, Dokploy, Home Assistant and more are in the [self-hosting docs](https://open-todo.app/docs/).
